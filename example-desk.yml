@@ -1,0 +1,24 @@
+sensor:
+  - platform: jcb35n2
+    buttons:
+      up: GPIO12
+      down: GPIO13
+    outputs:
+      up: GPIO2
+      down: GPIO16
+    raw_height:
+      name: Desk Raw Height
+    setpoint:
+      name: Desk Setpoint
+      min_inches: 28.5
+      min_raw: 21
+      max_raw: 213
+    presets:
+      name: Desk Presets
+      options:
+        - name: Sitting
+          height: 29.3
+          double_click: down
+        - name: Standing
+          height: 42.8
+          double_click: up
