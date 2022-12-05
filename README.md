@@ -13,7 +13,7 @@ Features:
 
 This should work with any ESPHome target that supports a UART and 4 GPIOs.
 
-TODO: Add schematic / board design.
+![schematic](hw/sch.png "schematic")
 
 ## Configuration
 
